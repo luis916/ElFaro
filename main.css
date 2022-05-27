@@ -1,0 +1,117 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #DCD6F7;
+}
+.white{
+    background-color: #DCD6F7;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-radius: 5px;
+}
+.white:hover{
+    background-color:#424874;
+    color: #fff;
+}
+.footer{
+    background-color: #c9d2d0;
+    color: #31231e;
+}
+.enlace:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+.titulo{
+    text-align: center;
+}
+.logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+#hora{
+    text-align: center;
+    padding: 5px;
+}
+nav{
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+}
+.formulario_contacto{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #DCD6F7;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+label{
+    color: #31231e;
+}
+#formulario_nombre,#formulario_mensaje,#formulario_enviar{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #DCD6F7;
+}
+#formulario_enviar{
+    margin: 5px;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+#formulario_mensaje{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+}
+.contenedor_agregar_articulo{
+    display: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+#agregar_articulo{
+    background-color: #0c0a16;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #0e0d0e;
+    border-radius: 5px;
+    
+}
+#agregar_articulo:hover{
+    background-color: #00ab5e;
+}
+#agregar_titulo,#agregar_descripcion{
+    display: block;
+    min-width: 100%;
+    margin:10px 0;
+    max-width: 100%;
+    max-height: 200px;
+}
+p{
+    font-size: medium;
+    text-align: left;
+}
+.contador{
+    font-size: small;
+}
+.destacar_articulo{
+    background-color: rgb(244, 244, 211);
+}
